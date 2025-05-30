@@ -10,7 +10,6 @@ let text;
 let height;
 let number = 0;
 
-
 addB.addEventListener("click", () => {
 
         number += 1;
@@ -54,7 +53,6 @@ addB.addEventListener("click", () => {
 
 })
 
-
 resetB.addEventListener("click",() => {
          let tasks = document.querySelectorAll(".ul")
 
@@ -63,15 +61,10 @@ resetB.addEventListener("click",() => {
         });
 })
 
-// searchF.addEventListener('input', () => {
-//         // console.log(searchF.value);
-//         let lis = Array.from(document.querySelectorAll(".li"));
-//         lis.forEach(element => { 
-//                 console.log(element);
-                
-//         });
-        
-
-// })
-
-
+searchF.addEventListener('input', () => {
+        // console.log(searchF.value);
+        let lis = Array.from(document.querySelectorAll(".li"));
+        lis.forEach(element => { 
+                console.log(element);
+        });
+})
